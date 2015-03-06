@@ -1,0 +1,112 @@
+/*Stylesheet authored by Drew Guild
+
+Contents:
+
+1. General
+2. Header
+3. Navigation
+4. Main Content
+*/
+
+body{
+	max-width:80%;
+	margin: auto;
+	height:100%;
+	padding:15px;
+
+	background-color:white;
+
+	border-radius: 10px;
+
+	box-shadow: #333 7px 7px 10px;
+}
+
+html{
+	background-color: #400;
+	position:relative;
+	height:100%;
+}
+
+h2{
+	margin:0;
+
+	font-family:Ariel;
+}
+
+h4{
+	margin-left:0px;
+}
+
+/**********HEADER***********/
+
+
+header{
+	overflow:hidden;
+}
+
+header a{
+	text-decoration:none;
+}
+
+header h1{
+	margin-left:100px;
+	margin-bottom:10px;
+
+	font-family:Georgia;
+	font-size:40pt;
+	color:#532900
+}
+
+header hr{
+	border-color: #532900;
+}
+
+header img{
+	width:100px;
+	float:left;
+	margin-top:-45px;
+
+}
+
+/************Navigation********/
+
+aside{
+	float:right;
+	width:250px;
+	height:100%;
+	padding:10px;
+	overflow:hidden;
+	
+
+	border-left-style:dashed;
+	border-width:thin;
+}
+
+nav li{
+list-style-type:none;
+}
+
+
+/************Main Content********/
+
+#content{
+	width:60%;
+	min-width:630px;
+	margin:auto auto auto 150px;
+}
+
+#content p{
+	font-family: "Palatino Linotype", serif;
+}
+
+#content hr{
+	display:block;
+	clear:right;
+	visibility:none;
+}
+
+.entry{
+	border-bottom-style:dashed;
+	border-width:thin;
+}
+
